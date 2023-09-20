@@ -1,0 +1,68 @@
+
+body{
+    background-color: black ;
+}
+.main{
+    background-color: rgb(2, 0, 128);
+    color: white;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 5px;
+    max-width: 600px;
+    box-shadow: 0 0 10px #808080;
+}
+.main h1{
+    font-size: 20px;
+    text-align: center;
+}
+.form{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form input[type="text"]{
+    height: 40px;
+    min-width: 80%;
+    border: 1px solid #808080;
+    padding: 0 20px;
+}
+.form button[type="submit"]{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listaTarefas{
+    margin-top:  30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif
+}
+.listaTarefas li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.listaTarefas li .edit{
+    margin-right: 15px;
+    color: #008000;
+}
+.listaTarefas li .close{
+    margin-right: 15px;
+    color: red;
+}
+.listaTarefas li:hover{
+    background-color: greenyellow;
+}
+.listaTarefas li:hover .edit,
+.listaTarefas li:hover .close{
+    color: black;
+}
+
+
+
+
